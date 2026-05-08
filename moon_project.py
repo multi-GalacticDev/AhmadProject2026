@@ -25,7 +25,7 @@ else:
     gray_image = process_image(image)
 
     # Apply binary threshold
-    threshold_value = 120
+    threshold_value = 180
 
     _, threshold_image = cv2.threshold(
         gray_image,
